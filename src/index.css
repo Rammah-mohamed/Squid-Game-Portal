@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primaryAccent: #ff4c8b;
+  /*Neon Pink	For buttons, highlights, accents*/
+  --color-SecondaryAccent: #00ffab;
+  /*Neon Green For progress, success UI*/
+  --color-Background: #0d0d0d;
+  /*Jet Black	For the overall dark mood*/
+  --color-neutral: #111827;
+  /*Charcoal neutral	Card backgrounds, modals*/
+  --color-TextPrimary: #e0e0e0;
+  /*Light Gray	For clean, readable typography*/
+  --color-Error: #ff3b3b;
+  /*Blood Red	For failure states / alerts*/
+  --color-Shadow: #ff007f;
+  /*Deep Pink Neon Glow Subtle glowing shadows*/
+  --color-DarkOverlay: #00000080;
+  /*	Semi-black, dramatic dim*/
+  --color-NeonPinkGlowOverlay: #ff4c8b66;
+  /*	Light pink glow filter*/
+  --color-NeonGreenOverlay: #00ffab33;
+  /*	Futuristic vibe*/
+  --color-PurpleMist: #3f0e4080;
+  /*	Deep purple mist veil*/
+  --color-FrostedGlassEffect: #ffffff10;
+  /*	White mist, subtle shine*/
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
